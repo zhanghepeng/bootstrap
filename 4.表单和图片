@@ -29,4 +29,98 @@
 				<div class="input-group-addon">.90美元</div>
 			</div>
 		</form>
-4,水平排列
+4,水平排列  label 和 input框在一行
+
+			<form class="form-group">
+				<div class="form-group">
+					<label class="col-sm-2">电子邮件</label>
+					<div class="col-sm-10 control-label">
+						<input type="email" class="form-control" placeholder="请输入电子邮件" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="form-group">
+						<label class="col-sm-2">密码</label>
+					</div>
+					<div class="col-sm-10 control-label">
+						<input type="password" class="form-control" placeholder="请输入密码"/>
+					</div>
+				</div>
+			</form>
+5,复选框 和单选框
+	
+		1,复选框
+				<div class="checkbox">
+					<label>
+						<input type="checkbox"/>记住密码
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox"/>永久登录
+					</label>
+				</div>
+		2,禁用复选框 (禁用选项框必须两个都禁用) disabled
+				<div class="checkbox disabled " >
+					<label>
+						<input type="checkbox" disabled/>永久登录
+					</label>
+				</div>
+		3,内联复选框  其实就是不用div 直接label 加样式就可以了 
+				<label class="checkbox-inline">
+					<input type="checkbox"/>文学
+				</label>
+				<label class="checkbox-inline">
+					<input type="checkbox"/>音乐
+				</label>
+				
+		4,单选框
+				<label class="radio-inline">
+					<input type="radio"/>男
+				</label>
+				<label class="radio-inline">
+					<input type="radio"/>女
+				</label>
+		6,下拉列表 form-control select>option
+				<select class="form-control">
+					<option>线上</option>
+					<option>线下</option>
+					<option>测试</option>
+				</select>
+		
+		7,校验状态 标签可以同步div的状态使用control-label;状态表示使用has-success
+		
+				<form>
+					<div class="form-group has-success">
+						<label class="control-label">邮箱(成功状态)</label>
+						<input type="email" class="form-control" placeholder="请输入邮件"/>
+					</div>
+					<div class="form-group has-error">
+						<label class="control-label">密码err状态</label>
+						<input type="password" class="form-control" placeholder="请输入邮件"/>
+					</div>
+				</form>
+		
+		8,添加额外的图标 glyphicon  需要div加定位has-feedback；form-control-feedback 同步；glyphicon-ok 图标名
+		
+				<div class="form-group has-success has-feedback">
+					<label class="control-label">邮箱(成功状态)</label>
+					<input type="email" class="form-control" placeholder="请输入邮件"/>
+					<span class="glyphicon glyphicon-ok form-control-feedback"></span>
+				</div>
+		9,控制尺寸 控制输入框的大小 input-sm input-lg
+		
+				<input type="password" class="form-control input-sm" placeholder="请输入邮件"/>
+				<input type="email" class="form-control input-lg" placeholder="请输入邮件"/>
+				
+	6,图片 4种图片
+		圆角巨型  椭圆  缩略图 响应式图片
+		<img src="../img/1.jpg" alt="图片-圆角巨型" class="img-rounded"/>
+		<img src="../img/1.jpg" alt="图片-椭圆" class="img-circle"/>
+		<img src="../img/1.jpg" alt="图片-缩略图" class="img-thumbnail"/>
+		<img src="../img/1.jpg" alt="图片-响应式图片" class="img-responsive"/>
+
+		
+			
+
+		
