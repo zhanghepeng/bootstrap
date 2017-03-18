@@ -1,0 +1,89 @@
+1,页面主题
+	
+	1,外边距: <body style="margin:50px">  //距左边框50个像素
+	2,突出样式：<p class="lead">BootStrap 突出样式</p>
+	3,字体大小:
+		1,small 标准字号的85%
+				<p><small class="h6">标准字号的85%</small></p>
+		2,class="h1/6"
+			<p>BootStrap 框架</p>
+			<p>BootStrap 框架</p>
+			<p>BootStrap 框架</p>
+			<h1>标题</h1>
+			<h2>标题</h2>
+			<h3>标题</h3>
+			<h1><small>标题</small></h1>
+			<span class="h1">自定义字体</span>
+			<span class="h1">自定义字体2</span>
+	4,内连模版
+		1,标记：mark
+				<p class="h3"><mark>标记</mark></p>
+		2,删除线
+				<del class="h4">删除线</del>
+		3,无用的文本
+					<p class="h5"><s>无用的文本</s></p>
+		4,插入文本
+					<ins>插入文本</ins>
+		5,下划线文本
+					<u>下划线文本</u>
+		6,加粗文本
+				<strong>加粗文本</strong>
+		7,斜体
+				<em>斜体</em>
+		8,居左	
+			<p class="text-left h3">居左</p>
+		9,居中
+			<p class="text-center h3">居中</p>
+		10,居右
+			<p class="text-right h3">居右</p>
+		11,两端对其
+			<p class="text-justify h3">两端对其</p>
+		12,不换行
+			<p class="text-nowrap h3">不换行</p>
+		13,缩略换行
+			<h1><abbr class="initialism">bootstarp缩略大写</abbr></h1>
+		14,大写
+			<p class="text-uppercase">bootstrap大写</p>
+		15,引用文本
+			<blockquote>引用文本</blockquote>
+		16,引用文本靠右
+			<blockquote class="blockquote-reverse">引用文本靠右</blockquote>>
+			
+	5,列表排版
+	
+		1,去掉前面的 点 顶格 class="list-unstyled"
+				<ul class="list-unstyled">
+					<li>列表</li>
+					<li>列表</li>
+					<li>列表</li>
+					<li>列表</li>
+				</ul>
+				
+		2,行列表 <ul class="list-unstyled list-inline">
+				<ul class="list-unstyled list-inline">
+					<li>列表</li>
+					<li>列表</li>
+					<li>列表</li>
+					<li>列表</li>
+				</ul>
+		3,主题内容  dl-dt-dd   默认是:上面主题下面内容  
+			<dl>
+				<dt>主题</dt>
+				<dd>本教程将向您讲解</dd>
+			</dl>
+		4,主题内容  水平排列 class="dl-horizontal"
+				<dl class="dl-horizontal">
+					<dt>主题</dt>
+					<dd>本教程将向您讲解 Bootstrap分都包含了与该主题相关的简单有用的实例</dd>
+				</dl>
+		5,内嵌块 <code></code>
+			<code>for i in `ls`;do echo $i hello ;done</code>
+			
+		6,用户输入	 <kbd></kbd>
+			<kbd>ctrl + ,</kbd>
+		7,代码块 <pre> 代码块</pre>
+			<pre>for i in `ls`;do echo $i hello ;done 代码块</pre>
+		
+			
+				
+				

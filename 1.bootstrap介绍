@@ -1,0 +1,15 @@
+1,新建一个html
+	直接用! tab 去不全获取一个html
+	
+2,引用css
+	<title>Bootstrap介绍</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css"/>
+	
+3,创建button
+	在body中添加button
+		<button class="btn btn-info">bootstrap</button>
+4,应用js文件
+	一般放在html的最后,因为js加载太慢
+		<script src="../static/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	

@@ -1,0 +1,32 @@
+1,默认表单
+
+	 lable 标签   
+			input 输入框  placeholder 提示信息在框内 type 表单类型
+			form-group 表单组
+			<from>
+				<div class="form-group">
+				<lable>电子邮件</lable>
+				<input type="email" class="form-control" placeholder="请输入你的邮箱" />
+				</div>
+				<lable>密码</lable>
+				<input type="password" class="form-control" placeholder="请输入你的密码" />
+			</from>
+2,内联表单 form-inline
+			<form class="form-inline">
+				<div>
+				<lable>电子邮件</lable>
+				<input type="email" class="form-control" placeholder="请输入你的邮箱" />
+				<lable>密码</lable>
+				<input type="password" class="form-control" placeholder="请输入你的密码" />
+				</div>
+			</form>
+			
+ 3,表单合组 class="input-group-addon"添加输入框
+		<form class="form-group">
+			<div class="input-group">
+				<div class="input-group-addon">$</div>
+				<input type="text" class="form-control" placeholder="请输入你的价格"/>
+				<div class="input-group-addon">.90美元</div>
+			</div>
+		</form>
+4,水平排列
