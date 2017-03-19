@@ -1,0 +1,211 @@
+1,输入框组件
+
+			1,在左侧添加文字 input-group>input-group-addon
+			
+				<div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input  type="text" class="form-control" placeholder="左侧添加文字"/>
+				</div>
+				
+			2,右侧添加文本
+			
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="右侧添加文本" />
+					<span class="input-group-addon">@dafy.com</span>
+				</div>
+				
+			3,两端添加文本
+			
+				<div class="input-group">
+					<span class="input-group-addon">两端添加文字-之前面添加</span>
+					<input type="text" class="form-control" placeholder="两端添加文本"/>
+					<span class="input-group-addon">两端添加文本-之后面添加文本</span>
+				</div>
+				
+			4,大/小 输入框之前后添加文字
+			
+				<div class=" input-group input-group-lg">
+					<input type="text" class="form-control" placeholder="大输入框后端添加文字" />
+					<span class="input-group-addon">@dafy.com</span>
+				</div>
+			5,左侧使用复选框 class="input-group-addon"><input type="checkbox"
+			
+				<div class="input-group">
+					<span class="input-group-addon"><input type="checkbox" />左侧使用复选框</span>
+					<input type="text" class="form-control" />
+				</div>
+			
+			6,左侧使用单选框 input type="radio"
+			
+				<div class="input-group">
+					<span class="input-group-addon" ><input type="radio" />左侧使用单选框</span>
+					<input type="text" class="form-control" />
+				</div>
+			
+			7,左侧使用按钮 input-group-btn>
+				<div class="input-group">
+					<span class="input-group-btn">class="btn btn-default"
+						<button type="button" class="btn btn-default">左侧使用按钮</button>
+					</span>
+					<input type="text" class="form-control" placeholder="左侧使用按钮" />
+				</div>
+			8,左侧使用下拉菜单input-group-btn>
+			
+				<div class="input-group">
+					<span class="input-group-btn">class="btn btn-default dropdown-toggle" data-toggle="dropdown">dropdown-menu
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+							左侧使用下拉菜单-之下拉菜单按钮
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li class="dropdown-header">标题菜单</li>
+							<li class="divider"></li>
+							<li><a href="#">首页</a></li>
+							<li class="divider"></li>
+							<li><a href="#">上线</a></li>
+							<li class="divider"></li>
+							<li><a href="#">下线</a></li>
+							<li class="divider"></li>
+							<li><a href="#">成功</a></li>
+						</ul>
+					</span>
+				</div>
+2,导航组件
+			1,基本的导航组件 nav nav-tabs
+			
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#">上线</a></li>
+					<li><a href="#">线下</a></li>
+					<li><a href="#">测试</a></li>
+				</ul>
+				
+			2,胶囊式导航组件 nav nav-pills
+			
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#">首页</a></li>
+					<li><a href="#">上线</a></li>
+					<li><a href="#">下线</a></li>
+				</ul>
+				
+			3,垂直胶囊式导航组件 nav nav-pills nav-stacked
+			
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href="#">数据库</a></li>
+					<li><a href="#">监控</a></li>
+					<li><a href="#">大数据</a></li>
+				</ul>
+				
+			4,两端对其导航组件 nav nav-tabs nav-justified
+			
+				<ul class="nav nav-tabs nav-justified">
+					<li><a href="#">zabbix</a></li>
+					<li><a href="#">ganglia</a></li>
+					<li class="disabled"><a href="#">mysql</a></li>
+				</ul>
+				
+			5,带下拉按钮的导航组件 
+			
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#">监控</a></li>
+					<li ><a href="#">大数据</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-menu dropdown-toggle" data-toggle="dropdown">
+							数据库
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">oracle</a></li>
+							<li><a href="#">mysql</a></li>
+						</ul>
+					</li>
+				</ul>
+3,导航条组件
+	
+			1,基本的导航条组件
+			
+				<nav class="navbar navbar-default"></nav>
+				
+			2,反色导航条组件
+			
+				<nav class="navbar navbar-inverse"></nav>
+				
+			3,基本的导航条组件包含标题和列表
+			
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#" class="navbar-brand">标题</a>
+						</div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#">首页</a></li>
+							<li><a href="#">资讯</a></li>
+							<li><a href="#">体育</a></li>
+							<li class="disabled"><a href="#">产品</a></li>
+							<li><a href="#">关于</a></li>
+						</ul>
+					</div>
+				</nav>
+				
+			4,导航条中使用表单
+			
+				<form action="" class="navbar navbar-form navbar-left">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="输入你要查询的内容"/>
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-default">搜索</button>
+						</span>
+					</div>
+				</form>
+			5,在导航中使用按钮
+			
+				<div >
+					<button class="btn btn-default navbar-btn">导航中使用按钮</button>
+				</div>
+				
+			6,导航中使用对齐按钮
+			
+				<div id="">
+					<button class="btn btn-default navbar-btn navbar-left">导航中使用对齐按钮</button>
+				</div>
+				
+			7,非导航连接,使用一段文本
+			
+				<div class="nav navbar-default">
+					<p class="navbar-text">导航中使用一段文本
+						<a href="#" class="navbar-link">非导航连接</a>
+					</p>
+					
+				</div>
+				
+			8,导航栏置顶
+			
+				<div class="nav navbar-default navbar-fixed-top navbar-static-top">
+						<ul class="nav navbar-default nav-tabs">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">数据库</a></li>
+							<li><a href="#">监控</a></li>
+						</ul>
+				</div>
+				
+			9,导航栏至底部
+			
+				<div class="nav navbar-default navbar-fixed-bottom">
+						<ul class="nav navbar-default nav-tabs">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">数据库</a></li>
+							<li><a href="#">监控</a></li>
+						</ul>
+				</div>
+				
+			10,静态导航栏，和页面等宽的导航条,去掉圆角
+			
+				<div class="nav navbar-default navbar-static-top">
+						<ul class="nav navbar-default nav-tabs">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">数据库</a></li>
+							<li><a href="#">监控</a></li>
+						</ul>
+				</div>
+	
+				
