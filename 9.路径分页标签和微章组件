@@ -1,0 +1,63 @@
+1,路径，分页组件
+
+		1,路径组件面包屑 class="breadcrumb"
+
+						<ol class="breadcrumb">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">产品列表</a></li>
+							<li class="active">韩版羊毛</li>
+						</ol>
+
+		2,分页组件	class="pagination 分页组件大小	pagination-lg		
+						
+						<ul class="pagination pagination-lg">
+							<li ><a href="#">&laquo;</a></li>
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li class="disabled"><a href="#">6</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+		3,翻页效果		
+						<ul class="pager">
+							<li><a href="#">上一页</a></li>
+							<li><a href="#">下一页</a></li>
+						</ul>
+		4，上一页 下一页
+						<ul class="pager">
+							<li class="previous disabled"><a href="#">上一页</a></li>
+							<li class="next"><a href="#">下一页</a></li>
+						</ul>
+2,标签
+	不同的标签
+	
+			<h5>zabbix <span class="label label-default">default</span></h5>
+			<h5>zabbix <span class="label label-danger">danger</span></h5>
+			<h5>zabbix <span class="label label-info">info</span></h5>
+			<h5>zabbix <span class="label label-primary">primary</span></h5>
+			<h5>zabbix <span class="label label-success">success</span></h5>
+			<h5>zabbix <span class="label label-warning">warning</span></h5>
+
+3,微章
+		1,唯独信息微章
+		
+			<a href="#">微章<span class="badge">10</span></a>
+			
+		2,按钮中使用微章
+		
+			<button class="btn btn-success">
+				提交 <span class="badge">3</span>
+			</button>
+			
+		3,激活状态自动适配色调
+		
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#">首页 <span class="badge">3</span></a>
+				</li>
+				<li><a href="#">资讯</a></li>
+			</ul>	
+
+			
